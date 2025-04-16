@@ -4,6 +4,11 @@
         "key": "ctrl+shift+3",
         "command": "sqltools.executeCurrentQuery"
     },
+    { // added by partha
+        "key": "alt+.",
+        "command": "editor.action.quickFix",
+        "when": "editorTextFocus"
+    },
     {
         "key": "alt+space",
         "command": "editor.action.triggerSuggest",

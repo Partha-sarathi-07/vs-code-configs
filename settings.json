@@ -23,7 +23,7 @@
     "workbench.sideBar.location": "right",
     "editor.fontFamily": "JetBrains Mono",
     "workbench.activityBar.location": "bottom",
-    "window.titleBarStyle": "custom",
+    "window.titleBarStyle": "native",
     "workbench.editor.editorActionsLocation": "titleBar",
     "workbench.colorTheme": "Andromeda Italic Bordered",
 
@@ -37,7 +37,6 @@
     "files.autoSave": "afterDelay", 
     "editor.letterSpacing": 0.5,
     "editor.lineHeight": 1.8,
-    "window.customTitleBarVisibility": "auto",
     "[yaml]": {
         "editor.tabSize": 4
     },
@@ -219,4 +218,6 @@
         "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
         "gleam": "gleam run -m $fileNameWithoutExt"
     },
+    "window.customTitleBarVisibility": "windowed",
+    "window.menuBarVisibility": "toggle",
 }
