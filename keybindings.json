@@ -2,7 +2,7 @@
 [
     // { // just for testing purpose
     //     "key": "space + i",
-    //     "command": "in-your-face.openview.focus"
+    //     "command": "workbench.action.terminal.chat.close"
     // },
     {
         "key": "ctrl+shift+3",

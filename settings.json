@@ -64,12 +64,16 @@
     "vim.normalModeKeyBindings": [
 
         {
-            "before": ["<leader>", "t", "n"],
+            "before": ["<leader>", "t", "n"], // to move to next tab
             "commands": ["workbench.action.nextEditor"]
         },
         {
-           "before": ["<leader>", "t", "p"],
+           "before": ["<leader>", "t", "p"], //to move to previous tab
            "commands": ["workbench.action.previousEditor"]
+        },
+        {
+            "before": ["<leader>", "t", "c"], // to close terminal
+            "commands": ["workbench.action.closePanel"]
         },
        
     ],
