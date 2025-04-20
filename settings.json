@@ -101,8 +101,8 @@
             "commands": ["workbench.action.toggleSidebarVisibility"]
         },
         {
-            "before": ["<leader>", "f"],
-            "commands": ["revealInExplorer"]
+            "before" : ["<leader>", "f"],
+            "commands" : ["workbench.files.action.focusFilesExplorer"]
         },
         {
             "before" : ["<leader>", "c"],
@@ -126,6 +126,10 @@
         {
             "before" : ["<leader>", "r"],
             "commands": ["code-runner.run"]
+        },
+        {
+            "before" : ["<leader>", "i"],
+            "commands": ["in-your-face.openview.focus"]
         },
 
         
@@ -156,7 +160,6 @@
     "csharp.preview.improvedLaunchExperience": true,
     "editor.tabCompletion": "on",
     "vsicons.dontShowNewVersionMessage": true,
-    "breadcrumbs.enabled": false,
     "code-runner.executorMap": {
     
 
@@ -220,4 +223,5 @@
     },
     "window.customTitleBarVisibility": "windowed",
     "window.menuBarVisibility": "toggle",
+    "breadcrumbs.enabled": false,
 }

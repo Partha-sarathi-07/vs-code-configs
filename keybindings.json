@@ -1,5 +1,9 @@
 // Place your key bindings in this file to override the defaults
 [
+    // { // just for testing purpose
+    //     "key": "space + i",
+    //     "command": "in-your-face.openview.focus"
+    // },
     {
         "key": "ctrl+shift+3",
         "command": "sqltools.executeCurrentQuery"
@@ -76,8 +80,8 @@
     },
     {
         "key": "alt+h",
-        "command": "workbench.action.navigateLeft",
-        "when": "vim.mode != 'Insert'"
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "in-your-face.openview.active"
     },
     {
         "key": "alt+l",
