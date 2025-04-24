@@ -36,7 +36,8 @@
     
     "files.autoSave": "afterDelay", 
     "editor.letterSpacing": 0.5,
-    "editor.lineHeight": 1.8,
+    "editor.lineHeight": 1.8, //previous
+    // "editor.lineHeight": 2,
     "[yaml]": {
         "editor.tabSize": 4
     },
@@ -60,7 +61,9 @@
         },
        
     ],
+
     "vim.leader": "<space>",
+
     "vim.normalModeKeyBindings": [
 
         {
@@ -139,10 +142,12 @@
         
          
     ],
+
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-f>": false
     },
+
     "vim.visualModeKeyBindings": [
         {
             "before" : ["<leader>", "/"],
@@ -157,6 +162,14 @@
           "after": ["<", "g", "v"]
         },
     ],
+
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before" : ["<leader>", "l"],
+            "after" : ["$"]
+        }
+    ],
+
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
